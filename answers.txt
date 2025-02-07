@@ -5,3 +5,7 @@ Answer: Git helps us with version control, so we can do things like keeping trac
 Q2: What field could data science be applied to? Give an Example.
 
 Answer: computational biology
+
+Q3: What is the difference between Merging and Rebasing?
+
+Answer: Merging creates a new commit that inherits changes from both the main and feature branches. Rebasing rewrites changes on the feature branch so that they are "moved" to the end of the main branch. Merging is safer because it is non-destructive, but rebasing is cleaner because it makes history linear.
